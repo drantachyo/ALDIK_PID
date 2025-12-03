@@ -1,7 +1,4 @@
 ✅ STEP 3 — DECLARE the Shooter object
-
-Tell your friend:
-
 “Declaring is like telling the robot ‘yes, we will have a shooter system’.”
 
 Add this at the top of your TeleOp class:
@@ -12,8 +9,6 @@ Shooter shooter;
 No parenthesis yet — this is only the declaration.
 
 ✅ STEP 4 — INITIALIZE the Shooter (in init())
-
-Tell them:
 
 “Initialize means we actually create the shooter and connect it to the hardware.”
 
@@ -28,8 +23,6 @@ public void init() {
 This runs once, before TeleOp starts.
 
 ✅ STEP 5 — USE the Shooter in loop()
-
-Tell them:
 
 “The loop keeps running 30–50 times per second.
 Buttons change shooter RPM.
