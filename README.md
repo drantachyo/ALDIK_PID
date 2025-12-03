@@ -2,7 +2,7 @@
 “Declaring is like telling the robot ‘yes, we will have a shooter system’.”
 
 Add this at the top of your TeleOp class:
-///////////////////
+
 Shooter shooter;
 
 
@@ -13,7 +13,7 @@ No parenthesis yet — this is only the declaration.
 “Initialize means we actually create the shooter and connect it to the hardware.”
 
 Inside init() write:
-////////////////////////////
+
 @Override
 public void init() {
     shooter = new Shooter(hardwareMap);  // connects shooter to the motors
